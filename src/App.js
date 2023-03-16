@@ -1,9 +1,9 @@
 import React from "react";
-import Sobre from "./objects/sobre";
+import Header from "./components/header";
 
 function App() {
   return (
-    <Sobre />
+    <Header />
   );
 }
 

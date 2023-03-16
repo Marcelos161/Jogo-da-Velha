@@ -5,4 +5,4 @@ const Sobre = () => {
     return <a href='#to-do' className='sobre'>SOBRE</a>
 }
 
-export default Sobre
+export default Sobre;
