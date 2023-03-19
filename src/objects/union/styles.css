@@ -1,0 +1,19 @@
+.union {
+    display: block;
+    text-indent: -9999px;
+}
+
+.union::after, .union::before, .union > .center  {
+    display: block;
+    content: '';
+    background-color: var(--color-fourth);
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+
+.union::after {
+    margin-bottom: 0;
+}
+
