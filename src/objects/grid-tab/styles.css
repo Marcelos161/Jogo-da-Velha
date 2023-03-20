@@ -1,0 +1,6 @@
+.grid svg {
+    display: block;
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+}
