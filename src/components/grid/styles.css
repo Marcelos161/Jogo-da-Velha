@@ -1,0 +1,17 @@
+
+.grid{
+    display: grid;
+    height: 100%;
+    background-color: var(--color-third);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 4px;
+    grid-row-gap: 3px;
+}
+
+.list {
+    background-color: var(--color-zero);
+    display: flex;
+    justify-content: center;
+}
+
