@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import './styles/settings/colors.css'
 import './styles/Generic/reset.css';
 import './styles/elements/base.css';
+import './styles/settings/spacing.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

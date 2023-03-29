@@ -1,10 +1,7 @@
 .tab {
-    display: block;
     width: 290px;
     height: 290px;
     background-color: var(--color-zero);
-    border-radius: 2%;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.274);
-    margin: auto;
-    z-index: -1;
+    border-radius: var(--spacing-radius);
+    box-shadow: 0 3px 6px 0 var(--color-light-negative);
 }
