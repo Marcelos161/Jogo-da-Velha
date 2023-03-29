@@ -1,27 +1,27 @@
 import React from "react";
 import Tab from "../../objects/tab-jogo-da-velha";
 import './styles.css'
-import Grid from "../../objects/grid-tab";
 import Player from "../../objects/player";
 
-const Main = () => {
+const Grid = () => {
 
-    return (<div className="Container-tab">
-                <Tab > 
-                    <Player player = "o"/> 
-                    <Player player = "x"/>
-                    <Player player = "o"/>
+    return (
+            <Tab > 
+                <ul className="grid">
+                    <li className='list'><Player player = "o"/></li>
+                    <li className='list'><Player player = "x"/></li>
+                    <li className='list'><Player player = "o"/></li>
 
-                    <Player player = "o"/>
-                    <Player player = "x"/>
-                    <Player player = "o"/>
+                    <li className='list'><Player player = "o"/></li>
+                    <li className='list'><Player player = "x"/></li>
+                    <li className='list'><Player player = "o"/></li>
 
-                    <Player player = "x"/>
-                    <Player player = "o"/>
-                    <Player player = "x"/>
-                </Tab> 
-                <Grid /> 
-            </div>)
+                    <li className='list'><Player player = "x"/></li>
+                    <li className='list'><Player player = "o"/></li>
+                    <li className='list'><Player player = "x"/></li>
+                </ul>
+            </Tab> 
+         )
 }
 
-export default Main
+export default Grid

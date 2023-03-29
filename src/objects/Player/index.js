@@ -9,7 +9,7 @@ const Player = ({player}) => {
     players['o'] = JogadorO;
 
     return <button className="player"> 
-                <img src={players[player]} alt={`Jogador ${player.toUpperCase()}`}/> 
+             <img src={players[player]} alt={`Jogador ${player.toUpperCase()}`}/> 
            </button>
 };
 

@@ -1,10 +1,11 @@
 import React, {Fragment} from "react";
 import Header from "./components/header";
-import Main from "./components/main";
+import Grid from "./components/main";
+
 
 function App() {
   return (
-    <><Header /><Main /></>
+    <><Header /><Grid /></>
   );
 }
 
