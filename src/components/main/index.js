@@ -2,10 +2,11 @@ import React from "react";
 import Tab from "../../objects/tab-jogo-da-velha";
 import './styles.css'
 import Grid from "../../objects/grid-tab";
-import Player from "../../objects/Player";
+import Player from "../../objects/player";
 
 const Main = () => {
-    return (<div className="Container-tab"><Tab /> <Grid /> <Player /></div>)
+
+    return (<div className="Container-tab"><Tab /> <Grid /> <Player player = "o"/></div>)
 }
 
 export default Main
