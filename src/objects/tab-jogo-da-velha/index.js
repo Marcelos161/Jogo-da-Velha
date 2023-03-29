@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles.css'
 
-const Tab = () => {
+const Tab = ({children}) => {
     return (<div className='tab'>
-
-    </div>)
+                {children}
+            </div>)
 }
 
 export default Tab

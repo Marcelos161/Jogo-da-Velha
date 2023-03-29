@@ -6,7 +6,22 @@ import Player from "../../objects/player";
 
 const Main = () => {
 
-    return (<div className="Container-tab"><Tab /> <Grid /> <Player player = "o"/></div>)
+    return (<div className="Container-tab">
+                <Tab > 
+                    <Player player = "o"/> 
+                    <Player player = "x"/>
+                    <Player player = "o"/>
+
+                    <Player player = "o"/>
+                    <Player player = "x"/>
+                    <Player player = "o"/>
+
+                    <Player player = "x"/>
+                    <Player player = "o"/>
+                    <Player player = "x"/>
+                </Tab> 
+                <Grid /> 
+            </div>)
 }
 
 export default Main
