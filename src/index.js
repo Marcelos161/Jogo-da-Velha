@@ -6,6 +6,7 @@ import './styles/settings/colors.css'
 import './styles/Generic/reset.css';
 import './styles/elements/base.css';
 import './styles/settings/spacing.css';
+import './styles/settings/size.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

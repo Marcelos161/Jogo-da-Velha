@@ -1,5 +1,5 @@
-.show {
+.label {
     color: var(--color-fourth);
     font-weight: bold;
-    font-size: 14px;
+    font-size: var(--size-small);
 }
