@@ -1,11 +1,15 @@
-import React, {Fragment} from "react";
+import React from "react";
 import Header from "./components/header";
 import Grid from "./components/grid";
+import './App.css'
 
 
 function App() {
   return (
-    <><Header /><Grid /></>
+    <main className="app">
+      <Header />
+      <Grid />
+    </main>
   );
 }
 
