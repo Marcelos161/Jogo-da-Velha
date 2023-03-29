@@ -1,7 +1,7 @@
 import React from "react";
 import Tab from "../../objects/tab-jogo-da-velha";
 import './styles.css'
-import Player from "../../objects/player";
+import Player from "../../objects/Player";
 
 const Grid = () => {
 
